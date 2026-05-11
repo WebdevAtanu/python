@@ -1,13 +1,14 @@
 def greet(name):
-    return f"Hello {name}"
+    return f"Hello {name}" # f-string is used to concatenate string
 
-print(greet("Python"))
+print(greet("Python")) # Hello Python
 
 # default parameter
 def add(a, b=10):
     return a + b
 
-print(add(5))
+result = add(5, 10) # function call
+print(result)
 
 # lambda function
 square = lambda x: x * x
