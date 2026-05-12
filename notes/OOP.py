@@ -1,4 +1,17 @@
+class User:
+    name = "",
+    age = 0
+
+    def getInfo(self):
+        print(f"The name is {self.name} and age is {self.age}")
+
+user = User()
+user.name = "Ram"
+user.age = 20
+user.showUser()
+
 class Person:
+    # constructor method
     def __init__(self, name, age):
         self.name = name
         self.age = age
