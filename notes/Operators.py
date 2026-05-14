@@ -40,14 +40,14 @@ print(a << b)  # left shift
 print(a >> b)  # right shift
 
 # identity operators
-print(a is b)   # is
+print(a is b)       # is
 print(a is not b)   # is not
 
 # membership operators
-print(a in b)   # in
+print(a in b)       # in
 print(a not in b)   # not in
 
 # special operators
-print(a is None)    # is None
+print(a is None)        # is None
 print(a is not None)    # is not None
 

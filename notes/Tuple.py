@@ -1,4 +1,4 @@
-colors = ("red", "green", "blue")
+colors = ("red", "green", "blue")   # Define a tuple of colors
 print(colors)
-colors.count("red") # count the number of red in the tuple
-colors.index("blue") # index of blue in the tuple
+print(colors.count("red"))          # count the number of red in the tuple
+print(colors.index("blue"))         # index of blue in the tuple

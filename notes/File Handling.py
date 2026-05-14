@@ -1,6 +1,6 @@
-data = open("test.txt");
-print(data.read())
-data.close()
+data = open("test.txt");    # open file in read mode
+print(data.read())          # read content of file
+data.close()                # close file
 
 # write
 # with open("test.txt", "w") as f: # "r" = read, "w" = write
